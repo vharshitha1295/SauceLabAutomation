@@ -17,8 +17,7 @@ public class IOSRealDeviceTest {
 	  caps.setCapability("appium:deviceName", "iPhone.*");
 	  caps.setCapability("appium:automationName", "XCUITest");
 	  MutableCapabilities sauceOptions = new MutableCapabilities();
-	  sauceOptions.setCapability("username", "oauth-vharshitha1295-9157b");
-	  sauceOptions.setCapability("accessKey", "ed42af79-cb08-4dad-8fd1-13e506581628");
+	  //add keys here
 	  sauceOptions.setCapability("build", "build-001");
 	  sauceOptions.setCapability("name", "RealDeviceIOSTest");
 	  caps.setCapability("sauce:options", sauceOptions);
